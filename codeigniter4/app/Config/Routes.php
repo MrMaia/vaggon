@@ -33,6 +33,3 @@ $routes->get('/activity/delete/(:num)', 'ActivityController::delete/$1');
 
 // Rota para logout (desloga o usuário)
 $routes->get('/logout', 'UserController::logout'); // Desloga o usuário
-
-// Rota para o calendário (opcional, se for usar o FullCalendar)
-$routes->get('/calendar', 'ActivityController::calendar'); // Exibe o calendário de atividades
